@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Diary</title>
+    <style>
+        body{
+            margin: auto;
+            background-color: #fde2c6;
+        }
+        #label{
+          background-color: white;
+          margin-top: auto;
+          
+          
+        }
+        #nav{
+          width: 100%;  
+          background-color:#FAD7B3;  
+          margin-top: 0;
+          padding-bottom: 20;
+          padding-top: 15px;
+          color: black;
+        }
+        #header{
+            width: 100%;
+            height: 375px;
+            border-image-repeat: space;
+        }
+        img{
+          width: 190px;
+          height: 200px;
+        }
+        
+        #trip{
+            padding-left:90px;
+            padding-right: 10px;
+            text-align:right;
+            font-size: medium; 
+            width: 45%;
+            padding-bottom: 20px;
+            font-size: larger;
+        }
+
+        #contact{
+            text-align: left;
+            width: 45%;
+            font-size: larger;
+            padding-bottom: 20px;
+        }
+        p{
+            color: black;    
+            text-align: center;
+            font: caption;
+            margin-top: auto;
+            width: 100%;
+            height: 40px;
+            padding-top: 15px;
+        }
+
+        #head{
+            color: black;    
+            text-align: center;
+            font: caption;
+            margin-top: auto;
+            width: 100%;
+            height: 40px;
+            padding-top: 15px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font:caption;
+        }
+
+   
+        #about{
+            width: 10px;
+            text-align: center;
+            padding-bottom: 20px;
+            font-size: larger;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+      * {
+           box-sizing: border-box;
+        }
+
+        .row {
+           display: flex;
+           padding-left:110px;
+           padding-right: 110px;
+           padding-bottom: 10px;
+          
+        }
+    </style>
+</head>
+<body>
+    <table id="nav">
+        <tr >
+            
+            <td id="trip"><a  href="Website.html">TRIPS</a></td>
+            <td id="about"><a href="About.html">ABOUT</a></td>
+            <td id="contact"><a href="contact.html">CONTACT</a></td>
+           
+            </tr>
+        </tr>
+    </table>
+    <img id="header"src="/template/headimage.jpg" alt="Cover">
+    <p id=head>My Travel Diary</p>
+    <div class="row">
+        <div class="column"><a href="trips.html#Reynisfjara">
+          <img src="/template/iceland.jpg" alt="iceland" style="width:100%">
+         </a> <p id="label">Reynisfjara, Iceland</p>
+        </div>
+        <div class="column"><a href="trips.html#greece">
+          <img src="/template/greece.jpg" alt="greece" style="width:100%">
+         </a> <p id="label">Greece</p>
+        </div>
+        <div class="column"><a href="trips.html#patagonia">
+          <img src="/template/patagonia.jpg" alt="patagonia" style="width:100%">
+         </a> <p id="label">Patagonia, Chile</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column"><a href="trips.html#ladakh">
+          <img src="/template/ladakh.jpg" alt="ladakh" style="width:100%">
+          </a><p id="label">Ladakh, India</p>
+        </div>
+        <div class="column"><a href="trips.html#lake_hiller">
+          <img src="/template/lake-hiller.jpg" alt="lake-hiller" style="width:100%">
+        </a><p id="label">Lake Hiller, Australia</p>
+        </div>
+        <div class="column"><a href="trips.html#maldives">
+          <img src="/template/maldives.jpg" alt="Maldives" style="width:100%">
+         </a> <p id="label">Glowing Beach, Maldives</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column"><a href="trips.html#mykonos">
+          <img src="/template/mykonos.jpg" alt="Mykonos" style="width:100%">
+         </a> <p id="label">Mykonos, Greece</p>
+        </div>
+        <div class="column"><a href="trips.html#hampi">
+          <img src="/template/hampi.jpg" alt="Hampi" style="width:100%">
+         </a> <p id="label">Hampi, India</p>
+        </div>
+        <div class="column"><a href="trips.html#socotra">
+          <img src="/template/socotra.jpg" alt="Socotra" style="width:100%">
+         </a> <p id="label">Socotra, Yemen</p>
+        </div>
+      </div>
+    
+</body>
+</html>
